@@ -1,0 +1,20 @@
+body{
+    background-image: url("../img/background.jpg");
+    justify-content: center;
+}
+.navbar{
+    height: 75px;
+}
+.container{
+    margin-top: 80px;
+    color: wheat;
+}
+.main-container{
+    display: inline-block;
+}
+/* .jumbotron{
+    justify-content: center;
+} */
+.card{
+    text-align: center;
+}
