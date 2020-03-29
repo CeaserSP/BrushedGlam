@@ -4,9 +4,27 @@ body{
 }
 .navbar{
     height: 75px;
+    background-color: rgb(163, 102, 194);
+}
+.navbar-brand{
+    color: wheat;
+    text-shadow: 1px 1px rgb(0, 200, 255);
+    font-size: 200%;
+}
+.nav-link{
+    color:rgb(0, 200, 255);
+    text-shadow: 1px 1px wheat;
+    font-size: 200%;
+}
+.dropdoown-menu{
+
+}
+.dropdown-item{
+
 }
 .container{
     margin-top: 80px;
+    margin-bottom: 80px;
     color: wheat;
 }
 .main-container{
@@ -15,10 +33,16 @@ body{
 /* .jumbotron{
     justify-content: center;
 } */
+.carousel{
+    margin-bottom: 20px;
+}
 .card{
     text-align: center;
 }
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: wheat !important;
     color: rgb(0, 200, 255);
+}
+.fixed-bottom{
+    height: 45px;
 }
