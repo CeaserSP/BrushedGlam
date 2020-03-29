@@ -18,3 +18,7 @@ body{
 .card{
     text-align: center;
 }
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: wheat !important;
+    color: rgb(0, 200, 255);
+}
