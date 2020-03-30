@@ -1,48 +1,83 @@
 body{
     background-image: url("../img/background.jpg");
     justify-content: center;
+    font-family: "Savoye LET", Zapfino, "Snell Roundhand", SignPainter;
 }
 .navbar{
     height: 75px;
     background-color: rgb(163, 102, 194);
 }
 .navbar-brand{
-    color: wheat;
-    text-shadow: 1px 1px rgb(0, 200, 255);
-    font-size: 200%;
+    color: rgb(253,204,201);
+    text-shadow: 1px 1px rgb(183, 216, 252);
+    font-size: 3em;
 }
 .nav-link{
-    color:rgb(0, 200, 255);
-    text-shadow: 1px 1px wheat;
-    font-size: 200%;
+    color:rgb(183, 216, 252);
+    text-shadow: 1px 1px rgb(253,204,201);
+    font-size: 2em;
 }
-.dropdoown-menu{
-
+h1{
+    font-size: 4em;
+}
+.lead, p{
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+.btn{
+    font-size: 2em;
+    text-shadow: 1px 1px rgb(163, 102, 194);
+    padding-bottom: 0px;
+}
+.dropdown-menu{
+ /* padding-top: 0px;
+ padding-bottom: 0px; */
+ background-color: rgb(183, 216, 252);
 }
 .dropdown-item{
-
+    font-size: 2em;
+    color: rgb(253,204,201);
+    text-shadow: 1px 1px rgb(183, 216, 252) ;
+    background-color: rgb(163, 102, 194);
 }
 .container{
     margin-top: 80px;
     margin-bottom: 80px;
-    color: wheat;
+    color: rgb(253,204,201);
 }
 .main-container{
     display: inline-block;
 }
-/* .jumbotron{
-    justify-content: center;
-} */
+.jumbotron{
+    background-color: rgb(163, 102, 194); 
+    border-radius: 25px;
+}
+.carousel-inner{
+    /* height: 400px; */
+    border-radius: 25px;
+}
 .carousel{
     margin-bottom: 20px;
 }
 .card{
     text-align: center;
+    border-radius: 25px;
+}
+.card-body{
+    background-color: rgb(183, 216, 252);
+
+}
+.card-text{
+    font-size: 2em;
+    color:rgb(253,204,201);
+    text-shadow: 1px 1px rgb(163, 102, 194);
 }
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: wheat !important;
-    color: rgb(0, 200, 255);
+    background-color: rgb(253,204,201) !important;
+    color: rgb(183, 216, 252);
+    text-shadow: 1px 1px rgb(163, 102, 194);
 }
 .fixed-bottom{
-    height: 45px;
+    margin-bottom: 0px;
+    height: 7%;
 }
